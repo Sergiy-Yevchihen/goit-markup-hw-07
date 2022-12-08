@@ -1,3 +1,14 @@
-body {
-    background-color: aqua;
-}
+@import "./variables.scss";
+@import "./normalize.scss";
+@import "./components-a/header";
+@import "./components-a/hero";
+@import "./components-a/modal";
+@import "./components-a/section-main";
+@import "./components-a/cection-foto";
+@import "./components-a/time";
+@import "./components-a/aside";
+@import "./components-a/footr-form";
+@import "./components-a/portfolio";
+@import "./components-a/galeri-cart";
+@import "./components-a/klains";
+@import "./components-a/foto-soc";
