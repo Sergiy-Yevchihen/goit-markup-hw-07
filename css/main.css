@@ -133,9 +133,7 @@ body {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.site-nav__link:hover,
-.site-nav__link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: #2196f3;
 }
 
@@ -216,9 +214,7 @@ body {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.aute-nav__link:hover,
-.aute-nav__link:focus {
+.aute-nav__link:hover, .aute-nav__link:focus {
   color: #2196f3;
 }
 
@@ -269,9 +265,7 @@ body {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.hero-main__button:hover,
-.hero-main__button:focus {
+.hero-main__button:hover, .hero-main__button:focus {
   background: #188ce8;
   border: 2px solid #188ce8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -322,7 +316,6 @@ body {
   -webkit-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal-but:hover .modal-of {
   fill: #188ce8;
 }
@@ -401,7 +394,6 @@ body {
   padding: 12px 42px;
   margin-top: 4px;
 }
-
 .form__form-input:focus {
   border-color: #2196f3;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -437,7 +429,6 @@ body {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .form__textar:focus {
   outline: none;
   border-color: #188ce8;
@@ -516,6 +507,14 @@ body {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form__bat-form:hover {
+  cursor: pointer;
+  background: #188ce8;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid #188ce8;
+}
 
 .form__contrakte {
   font-family: "Roboto";
@@ -528,15 +527,6 @@ body {
           text-decoration-line: underline;
   color: #2196f3;
   margin-left: 7px;
-}
-
-.form__bat-form:hover {
-  cursor: pointer;
-  background: #188ce8;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 1px solid #188ce8;
 }
 
 .sectio-main {
@@ -816,17 +806,15 @@ body {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.team-list__timse-soc-icons {
-  fill: currentColor;
-}
-
-.team-list__timse-soc-link:hover,
-.team-list__timse-soc-link:focus {
+.team-list__timse-soc-link:hover, .team-list__timse-soc-link:focus {
   background-color: #2196f3;
   fill: #ffffff;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-list__timse-soc-icons {
+  fill: currentColor;
 }
 
 .team-list__timse-soc-items {
@@ -900,15 +888,13 @@ body {
   margin-bottom: 60px;
 }
 
-.info-address__asad-link:hover,
-.info-address__asad-link:focus {
-  color: #2196f3;
-}
-
 .info-address__asad-link {
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.info-address__asad-link:hover, .info-address__asad-link:focus {
+  color: #2196f3;
 }
 
 .info-address__begin-nav {
@@ -1053,9 +1039,7 @@ body {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.list-portfolio__button-listt:hover,
-.list-portfolio__button-listt:focus {
+.list-portfolio__button-listt:hover, .list-portfolio__button-listt:focus {
   background: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1248,9 +1232,7 @@ body {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.client-logo__kleinc-logo:hover,
-.client-logo__kleinc-logo:focus {
+.client-logo__kleinc-logo:hover, .client-logo__kleinc-logo:focus {
   border: 1px solid #2196f3;
   border-radius: 4px;
   fill: #2196f3;
@@ -1319,9 +1301,7 @@ body {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footr-soc-list__footr-soc-link:hover,
-.footr-soc-list__footr-soc-link:focus {
+.footr-soc-list__footr-soc-link:hover, .footr-soc-list__footr-soc-link:focus {
   background-color: #2196f3;
 }
 

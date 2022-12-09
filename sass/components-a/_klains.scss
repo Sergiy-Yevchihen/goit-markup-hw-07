@@ -43,14 +43,18 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+ 
   
-  .client-logo__kleinc-logo:hover,
-  .client-logo__kleinc-logo:focus {
+  &:hover,
+  &:focus {
     border: 1px solid #2196f3;
     border-radius: 4px;
     fill: #2196f3;
   }
+  }
+
+
+
   .client-logo__klent-foto {
     width: 106px;
     height: 60px;
