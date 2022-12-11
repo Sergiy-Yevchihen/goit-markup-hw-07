@@ -1,4 +1,14 @@
 .hero {
+    
+    background-color: #c4c4c4;
+  
+   
+  }
+  
+  
+  .hero-main {
+    display: inline-block;
+    text-align: center;
     text-align: center;
     background-image: linear-gradient(
         to right,
@@ -11,14 +21,9 @@
     background-size: cover;
     background-color: #c4c4c4;
   
-    max-width: 1600px;
+    // max-width: 1600px;
     margin: 0px auto;
-  }
-  
-  
-  .hero-main {
-    display: inline-block;
-    text-align: center;
+
   }
   
   .hero-main__title-hero {
